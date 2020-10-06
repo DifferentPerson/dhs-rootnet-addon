@@ -32,4 +32,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: DHSAddon
-        path: ./build/libs/*-release.jar
+        path: ./build/libs/dhs-rootnet-addon-*[!sources].jar
