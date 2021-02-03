@@ -36,3 +36,10 @@ repositories {
 dependencies {
 
 }
+
+import net.minecraftforge.gradle.user.ReobfMappingType
+reobf {
+    jar {
+        setMappingType(ReobfMappingType.NOTCH)
+    }
+}
